@@ -78,17 +78,17 @@ annotate CatalogService.GetTemplate with @(
 //4. Selection Fields and Line Item
 annotate CatalogService.GetTemplate with@(
     UI: {
-        SelectionFields  : [
-        id,
-        text,
-        validTo,
-        amountOfPurchase,
-        criticality,
-        amontAfterDiscount,
-        amontOverTolerance,
-        shouldBeFixedImmediately,
-        to_category.to_country.text
-        ],
+        // SelectionFields  : [
+        //     id,
+        //     text,
+        //     validTo,
+        //     amountOfPurchase,
+        //     criticality,
+        //     amontAfterDiscount,
+        //     amontOverTolerance,
+        //     shouldBeFixedImmediately,
+        //     to_category.to_country.text
+        // ],
         LineItem: [
             {  $Type : 'UI.DataField', Value : id, },
             {  $Type : 'UI.DataField', Value : text, },
