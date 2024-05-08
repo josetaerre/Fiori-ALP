@@ -17,5 +17,19 @@ service CatalogService {
             createdAt,
             modifiedBy,
             modifiedAt
+        };
+
+    entity GetTemplate as
+        projection on service.Template {
+            *,
+            null as amontAfterDiscount : Integer,
+            null as amontOverTolerance : Boolean,
+            null as shouldBeFixedImmediately : Boolean
+        }
+        excluding {
+            createdBy,
+            createdAt,
+            modifiedBy,
+            modifiedAt
         }
 }

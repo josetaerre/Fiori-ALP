@@ -1,10 +1,15 @@
-id, text, status, validTo
-101, Electronic Invoice,1, 2024-05-19T15:34:55+0000
-102, Maintenance,1, 2024-05-19T15:34:55+0000
-103, POSs, 1, 2024-05-19T15:34:55+0000
-104, Chashiers,1, 2024-05-19T15:34:55+0000
-105, Alleys lighting,2, 2024-05-19T15:34:55+0000
-106, Store Opening, 2, 2024-05-19T15:34:55+0000
-107, Stock,1, 2024-05-19T15:34:55+0000
-108, Store location,1, 2024-05-19T15:34:55+0000
-109, Pricing, 2, 2024-05-19T15:34:55+0000
+id, text, status, validTo, to_country_id
+101, Electronic Invoice,1, 2024-05-19T15:34:55+0000, 1
+102, Maintenance,1, 2024-05-19T15:34:55+0000, 1
+103, POSs, 1, 2024-05-19T15:34:55+0000, 1
+104, Chashiers,1, 2024-05-19T15:34:55+0000, 2
+105, Alleys lighting,2, 2024-05-19T15:34:55+0000, 2
+106, Store Opening, 2, 2024-05-19T15:34:55+0000, 3
+107, Stock,1, 2024-05-19T15:34:55+0000, 4
+108, Store location,1, 2024-05-19T15:34:55+0000, 4
+109, Pricing, 2, 2024-05-19T15:34:55+0000, 4
+110, Electronic Invoice,1, 2024-05-19T15:34:55+0000, 2
+111, Electronic Invoice,1, 2024-05-19T15:34:55+0000, 3
+113, Electronic Invoice,1, 2024-05-19T15:34:55+0000, 4
+114, Store Opening, 2, 2024-05-19T15:34:55+0000, 1
+115, Store location,1, 2024-05-19T15:34:55+0000, 2
