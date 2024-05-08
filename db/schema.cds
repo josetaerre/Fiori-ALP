@@ -40,4 +40,3 @@ entity Country {
     text: String;
     to_category: Association to many Category
 }
-
