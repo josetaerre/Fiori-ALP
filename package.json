@@ -10,18 +10,24 @@
     "express": "^4"
   },
   "devDependencies": {
-    "@cap-js/sqlite": "^1"
+    "@cap-js/sqlite": "^1",
+    "@sap/ux-specification": "^1.120.9"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-project_template": "cds watch --open project_template/webapp/index.html?sap-ui-xx-viewCache=false"
   },
-
-  "cds": { 
+  "cds": {
     "requires": {
       "db": {
         "kind": "sqlite",
-        "credentials": { "url": "db.sqlite" } 
+        "credentials": {
+          "url": "db.sqlite"
+        }
       }
     }
-  }
+  },
+  "sapux": [
+    "app/project_template"
+  ]
 }
